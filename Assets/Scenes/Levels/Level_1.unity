@@ -583,7 +583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c44d8dbf461bb942806ed7398f17948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exitCheckDirection: {x: -1, y: 0, z: 0}
   exitFound:
     m_PersistentCalls:
       m_Calls:
@@ -850,6 +849,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InvisibleBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097410174999988518, guid: fc02b10934efe134eb9128e3e3089089,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2197,6 +2201,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InvisibleBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2097410174999988518, guid: fc02b10934efe134eb9128e3e3089089,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: fc02b10934efe134eb9128e3e3089089, type: 3}
@@ -2444,6 +2453,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InvisibleBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2097410174999988518, guid: fc02b10934efe134eb9128e3e3089089,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: fc02b10934efe134eb9128e3e3089089, type: 3}
@@ -2530,6 +2544,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InvisibleBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097410174999988518, guid: fc02b10934efe134eb9128e3e3089089,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2715,6 +2734,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InvisibleBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2097410174999988518, guid: fc02b10934efe134eb9128e3e3089089,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: fc02b10934efe134eb9128e3e3089089, type: 3}
@@ -2801,6 +2825,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InvisibleBlock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097410174999988518, guid: fc02b10934efe134eb9128e3e3089089,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

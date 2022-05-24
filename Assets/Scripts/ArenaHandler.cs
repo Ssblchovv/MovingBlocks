@@ -14,9 +14,6 @@ public class ArenaHandler : MonoBehaviour {
     bool _stopped = false;
 
     [SerializeField]
-    private Vector3 exitCheckDirection = Vector3.left;
-
-    [SerializeField]
     private UnityEvent exitFound = new();
 
     void Start() {
@@ -66,7 +63,7 @@ public class ArenaHandler : MonoBehaviour {
 
     bool CheckNearExit() {
         var castPos = exitCube.transform.position;
-        if (Physics.Raycast(castPos, exitCheckDirection, out RaycastHit hitInfo, 1f) && hitInfo.transform.CompareTag("ArenaPlayerCube")) {
+        if (Physics.Raycast(castPos, Vector3.up, out RaycastHit hitInfo, 1f) && hitInfo.transform.CompareTag("ArenaPlayerCube")) {
             _stopped = true;
             return true;
         }
