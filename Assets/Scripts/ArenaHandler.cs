@@ -98,8 +98,8 @@ public class ArenaHandler : MonoBehaviour {
                     tup.Item1.Translate(dir);
                     movedAny = true;
                 }
-                yield return new WaitForFixedUpdate();
             }
+            yield return new WaitForFixedUpdate();
         } while (movedAny);
 
         if (CheckNearExit()) {
